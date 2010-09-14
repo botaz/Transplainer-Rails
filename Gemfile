@@ -7,5 +7,6 @@ gem 'CFPropertyList', :require => 'cfpropertylist'
 gem 'faker'           # seeding data
 
 group :development do
+  gem 'heroku',       :require => false
   gem 'sqlite3-ruby', :require => 'sqlite3'
 end
