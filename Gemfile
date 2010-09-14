@@ -1,5 +1,11 @@
 source :rubygems
 
 gem 'rails', '3.0.0'
-gem 'sqlite3-ruby', :require => 'sqlite3'
-gem 'faker'
+
+gem 'CFPropertyList', :require => 'cfpropertylist' 
+
+gem 'faker'           # seeding data
+
+group :development do
+  gem 'sqlite3-ruby', :require => 'sqlite3'
+end

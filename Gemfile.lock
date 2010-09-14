@@ -1,6 +1,9 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    CFPropertyList (2.0.12)
+      libxml-ruby (>= 1.1.0)
+      rake (>= 0.7.0)
     abstract (1.0.0)
     actionmailer (3.0.0)
       actionpack (= 3.0.0)
@@ -35,6 +38,7 @@ GEM
       abstract (>= 1.0.0)
     faker (0.3.1)
     i18n (0.4.1)
+    libxml-ruby (1.1.4)
     mail (2.2.6.1)
       activesupport (>= 2.3.6)
       mime-types
@@ -70,6 +74,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  CFPropertyList
   faker
   rails (= 3.0.0)
   sqlite3-ruby
